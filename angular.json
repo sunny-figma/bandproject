@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "gcp-demo": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gcp-demo"
+    }
+  },
+  "defaultProject": "gcp-demo",
+  "cli": {
+    "analytics": "51875d8a-ed5e-40af-b685-36099b1a1569"
+  }
 }
